@@ -33,6 +33,7 @@ jobs:
       run: |
         cd artifacts
         ls
+        pwd
 
     - name: display contents of hello.txt
       run: cat ./artifacts/hello.txt
