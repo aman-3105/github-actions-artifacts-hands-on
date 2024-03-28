@@ -29,5 +29,10 @@ jobs:
         name: hello-artifact
         path: ./artifacts
 
+    - name: view artifacts folder
+      run: |
+        cd artifacts
+        ls artifacts
+
     - name: display contents of hello.txt
       run: cat ./artifacts/hello.txt
