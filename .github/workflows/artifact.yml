@@ -32,7 +32,7 @@ jobs:
     - name: view artifacts folder
       run: |
         cd artifacts
-        ls artifacts
+        ls
 
     - name: display contents of hello.txt
       run: cat ./artifacts/hello.txt
